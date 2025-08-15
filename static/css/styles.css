@@ -11,6 +11,19 @@ body {
     margin: 0;
     min-height: 100vh;
     position: relative;
+    }
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.logo img{
+    margin: 10px;
+    padding: 10px;
+    width: 120px;
+    height: auto;
 }
 
 .matrix-bg {
@@ -22,9 +35,9 @@ body {
     background: url('../img/matrix.png') repeat-y;
 }
 .matrix-bg-left {
-    position: absolute;
     left: 0;
     height: 100vh;
+    margin:auto 180px;
 }
 .matrix-bg-right {
     right: 0;
@@ -54,12 +67,12 @@ body {
 }
 
 .main-content {
-    margin-left: 140px;
+    margin-left: 300px;
     margin-right: 80px;
     padding: 0 20px;
     position: relative;
     z-index: 1;
-    width: 50rem;
+    width: 55rem;
 }
 
 .main-header {
@@ -133,3 +146,8 @@ body {
     background: #222;
     box-shadow: 0 0 8px #39ff1488;
 }
+
+.game-image.izquierda {
+    order: -1; 
+}
+
